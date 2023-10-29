@@ -1,0 +1,151 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+p {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+a,
+li {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.blue-c {
+  color: #1090cb !important;
+}
+
+.grey-c {
+  color: #5c5c5c;
+}
+
+.grey-us-c{
+  color: #585858;
+}
+
+.grey-lorem-c{
+  color: #545454;
+}
+
+.purple-c{
+  color:  #2E0D64;
+}
+
+.grey-carousel-c{
+  color: #6A6A6A;
+}
+
+.grey-our-c{
+  color: #696969;
+}
+
+.grey-web-c{
+  color: #797979;
+}
+
+.grey-our-c{
+  color: #424242;;
+}
+
+.grey-form-c{
+  color: #4F4F4F;
+}
+
+.grey-inp-c{
+  color: #727272 !important;
+}
+
+.blue-bg {
+  background-color: #E8F4FA;
+}
+
+.blue-light-bg {
+  background-color: #EFEAFF;
+}
+
+.sky-light-bg {
+  background-color: #ECFFDA;
+}
+
+.sky-bg {
+  background-color: #DAE6FF;
+}
+
+.red-light-bg {
+  background-color: #FFE5DA;
+}
+
+.laqua-bg{
+  background-color:  #08D3BB;
+}
+
+.lablue-bg{
+  background-color:  #1090CB !important;
+}
+
+.lapurple-bg{
+  background-color:   #9208D3;
+}
+
+.grey-bg{
+  background-color: #F4F4F4 !important;
+}
+
+.red-light-bg{
+  background-color: #FFF2F2;
+}
+
+.aqua-light-bg{
+  background-color: #E2F3FF;
+}
+
+.salat-bg{
+  background-color: #F1E8FF;
+}
+
+.salat-light-bg{
+  background-color: #FFE7FB;
+}
+
+.grey-inp-bg{
+  background-color: #F1F1F1 !important;
+}
+
+.blue-lorem-bg{
+  background-color: #E7EFF3;
+}
+
+.lastest-lorem:hover{
+  background-color:  #1090CB;
+  color: #FFFFFF !important;
+}
+
+.lastest-lorem-bg:hover{
+  background-color:  #1090CB;
+}
+
+.lastest-lorem-c:hover{
+  color: #FFFFFF !important;
+}
+
+.contactus-bg{
+  background-color: #F5F3DA;
+}
+
+.container {
+  max-width: 1190px !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
