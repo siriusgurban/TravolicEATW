@@ -5,45 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 
-<body style="font-family:'Poppins'">
+<body class="font-poppins">
 
-  <!-- <h1 class="bg-red-500">Hello</h1> -->
 
   <header class="flex justify-center border-b-2 h-24">
 
-    <div class="flex justify-center w-full" style="max-width: 1376px">
+    <div class="flex align-middle justify-center w-full text-center" style="max-width: 1376px">
 
-
-      <div class="flex align-middle w-6/12"><a class="text-decoration-none" href="index.html">
-          <p class="blue-c fs-2 fw-bold">LOGO</p>
+      <div class="flex align-middle w-6/12"><a href="index.html" class="text-center">
+          <p class="text-3xl font-bold text-sky-600">LOGO</p>
         </a></div>
-      <!-- <p class="bg-red-500">Salam</p> -->
 
+      <nav class="w-6/12 ">
 
-      <nav class="navbar navbar-expand w-6/12">
-
-
-        <ul class="flex">
+        <ul class="w-full flex justify-between align-middle ">
 
           <li class="">
-            <a class="relative" href="index.html"><img class="position-absolute top-0 start-0 translate-middle "
-                src="assets/icons/Nav.svg" alt="circle"><span class="blue-c">Home</span></a>
+            <a class="relative" href="index.html"><img class="absolute -left-2 -top-1"
+                src="/src/assets/icons/Nav.svg" alt="circle"><span class="text-sky-600">Home</span></a>
           </li>
           <li class="">
-            <a class=" " href="/assets/pages/aboutus.html">About&nbsp;us</a>
+            <a class=" " href="/src/assets/pages/aboutus.html">About&nbsp;us</a>
           </li>
           <li class="">
-            <a class=" " href="/assets/pages/services.html">Services</a>
+            <a class=" " href="/src/assets/pages/services.html">Services</a>
           </li>
           <li class="">
-            <a class=" " href="/assets/pages/blog.html">Blog</a>
+            <a class=" " href="/src/assets/pages/blog.html">Blog</a>
           </li>
           <li class="">
-            <button class="btn lablue-bg ps-4 pe-4" type="submit"><a class="text-decoration-none text-white"
-                href="/assets/pages/contactus.html" style="font-size: 13px;">Contact us</a></button>
+            <button class="bg-sky-600 rounded-md w-32 h-10 " type="submit"><a class="text-xs text-white flex align-middle justify-center" href="/src/assets/pages/contactus.html">Contact
+                us</a></button>
           </li>
 
         </ul>
@@ -55,51 +51,47 @@
 
   <!-- --------------------------Section-------------------------- -->
 
+  <section class="bg-indigo-100 relative">
 
-  <section class="blue-bg position-relative">
+    <div style="max-width: 1194px;">
 
-
-
-    <div class="container">
-
-      <div class="d-flex w-100 align-items-center m-100" style="max-width: 1190px;">
+      <div class="w-full flex justify-between align-center mb-11">
 
 
+        <div class="w-6/12 mt-32 gap-y-16 flex flex-col ">
+          <div class="flex flex-col gap-y-5 container">
 
-
-        <div class="w-50">
-          <div class="mw-100 d-flex flex-column mb-5 ">
-
-            <h2 class="bg-red-500">Experienced <span class="blue-c">mobile and
+            <h2 class="font-semibold" style="font-size: 40px;">Experienced <span class="text-sky-600">mobile and
                 web</span> applications and website builders measuring.</h2>
-            <p class="fs-6 grey-c lh-lg ">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+            <p class="text-base text-zinc-600 leading-8">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
               applications and website builders measuring dozens of completed projects. We build and
               develop mobile applications for several top platforms, including Android & IOS. </p>
           </div>
-          <div class="mw-100 d-flex gap-3">
-            <a class="btn lablue-bg ps-5 pe-5 pt-3 pb-3 text-decoration-none text-white"
+
+          <div class="flex gap-4 ">
+            <a class="bg-sky-600 py-4 px-12 rounded-lg text-white"
               href="assets/pages/contactus.html">Contact&nbsp;us</a>
-            <a class="btn bg-white btn-outline-primary ps-5 pe-5 pt-3 pb-3 text-decoration-none blue-c"
+            <a class="bg-white text-sky-600 py-4 px-12 rounded-lg border-sky-600 border border-solid"
               href="assets/pages/contactus.html">View&nbsp;more</a>
           </div>
 
         </div>
 
-        <div class="position-relative"><img class="mw-100" src="assets/icons/Experienced.svg" alt="experienced"></div>
-        <div><img class="position-absolute top-0 start-50" style="z-index: -999;"
-            src="assets/icons/EllipseTravolic2.svg" alt="eclipce"></div>
+        <div class="relative w-6/12"><img class="mw-100" src="assets/icons/Experienced.svg" alt="experienced"></div>
+        <!-- <div><img class="absolute" style="z-index: -999;"
+            src="assets/icons/EllipseTravolic2.svg" alt="eclipce"></div> -->
 
 
       </div>
 
     </div>
-
-    <div><img class="position-absolute top-0 start-0;" style="z-index: -999;" src="assets/icons/EllipseTravolic1.svg"
+<!-- 
+    <div><img class="position-absolute top- start-0;" style="z-index: -999;" src="assets/icons/EllipseTravolic1.svg"
         alt="eclipce"></div>
 
     <div><img class="position-absolute top-50 start-0" src="assets/icons/rightVector.svg" alt="rightVector"></div>
 
-    <div><img class="position-absolute top-0 end-0" src="assets/icons/leftVector.svg" alt="leftVector"></div>
+    <div><img class="position-absolute top-0 end-0" src="assets/icons/leftVector.svg" alt="leftVector"></div> -->
 
   </section>
 
