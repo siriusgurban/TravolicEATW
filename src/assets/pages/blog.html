@@ -1,53 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/general.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/dist/output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
-    <link rel="icon" type="image/x-icon" href="/assets/icons/travolic.png">
-    <title>Travolic</title>
 </head>
 
-<body style="font-family:'Poppins'">
-
-    <header class="d-flex justify-content-center border-bottom" style="height: 102px; margin-bottom: 72px;">
-
-        <div class="d-flex justify-content-between w-100" style="max-width: 1376px">
+<body class="font-poppins">
 
 
-            <div class="d-flex align-items-center w-50"><a class="text-decoration-none" href="/index.html">
-                    <p class="blue-c fs-2 fw-bold">LOGO</p>
+    <header class="flex justify-center border-b-2 h-24">
+
+        <div class="flex align-middle justify-center w-full text-center" style="max-width: 1376px">
+
+            <div class="flex py-7 w-6/12"><a href="../../index.html" class="text-center">
+                    <p class="text-3xl font-bold text-sky-600">LOGO</p>
                 </a></div>
 
+            <nav class="w-6/12 ">
 
-            <nav class="navbar navbar-expand w-50">
+                <ul class="w-full flex justify-between">
 
-
-                <ul class="navbar-nav d-flex justify-content-between w-100">
-
-                    <li class="">
-                        <a class="text-decoration-none text-reset position-relative" href="/index.html">Home</a>
+                    <li class="py-9">
+                        <a class="" href="../../index.html">Home</a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset " href="/assets/pages/aboutus.html">About&nbsp;us</a>
+                    <li class="py-9">
+                        <a class=" " href="/src/assets/pages/aboutus.html">About&nbsp;us</a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset " href="/assets/pages/services.html">Services</a>
+                    <li class="py-9">
+                        <a class=" " href="/src/assets/pages/services.html">Services</a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset position-relative" href="blog.html"><img
-                                class="position-absolute top-0 start-0 translate-middle " src="/assets/icons/Nav.svg"
-                                alt="circle"><span class="blue-c">Blog</span></a>
+                    <li class="py-9">
+                        <a class="relative" href="/src/assets/pages/aboutus.html"><img class="absolute -left-2 -top-1"
+                                src="../icons/Nav.svg" alt="circle"><span class="text-sky-600">Blog</span></a>
                     </li>
-                    <li class="">
-                        <button class="btn lablue-bg ps-4 pe-4" type="submit"><a
-                                class="text-decoration-none text-white" href="/assets/pages/contactus.html"
-                                style="font-size: 13px;">Contact us</a></button>
+                    <li class="py-7">
+                        <button class="bg-sky-600 rounded-md w-32 h-10 hover:bg-sky-800" type="submit"><a
+                                class="text-xs text-white flex align-middle justify-center"
+                                href="/src/assets/pages/contactus.html">Contact
+                                us</a></button>
                     </li>
 
                 </ul>
@@ -68,16 +62,18 @@
                     <h1 class="fw-bold lh-lg text-center" style="max-width: 36%;">Latest news <span
                             class="blue-c">Updates</span>
                     </h1>
-                    <p class="fs-5 text-center" style="color: #777; max-width: 36%;">Lorem Ipsum is simply dummy text of the
+                    <p class="fs-5 text-center" style="color: #777; max-width: 36%;">Lorem Ipsum is simply dummy text of
+                        the
                         printing .</p>
 
                     <form class="row g-3 " style="max-width: 720px; width: 36%;">
 
                         <div class="w-100 ">
-                            <label for="inputEmail2" class="visually-hidden "><img src=""
-                                        alt=""> Search</label>
-                            <input type="search" class="form-control ps-5 pe-3 pt-2 pb-2 grey-inp-bg grey-inp-c border-none"
-                                id="inputEmail2" placeholder="Search" style="display: flex; align-items: center; background-position: 20px 10px; 
+                            <label for="inputEmail2" class="visually-hidden "><img src="" alt=""> Search</label>
+                            <input type="search"
+                                class="form-control ps-5 pe-3 pt-2 pb-2 grey-inp-bg grey-inp-c border-none"
+                                id="inputEmail2" placeholder="Search"
+                                style="display: flex; align-items: center; background-position: 20px 10px; 
                                 background-image: url('/assets/icons/search 1.svg'); background-repeat: no-repeat; border: none;">
                         </div>
 
@@ -125,7 +121,7 @@
 
             <div class="d-flex justify-content-between gap-5 ">
 
-                <div class="w-100"><img  src="/assets/images/Rectangle 19.png" alt="laptop"></div>
+                <div class="w-100"><img src="/assets/images/Rectangle 19.png" alt="laptop"></div>
 
                 <div class="d-flex justify-content-between flex-column">
 
@@ -154,7 +150,7 @@
         </div>
     </section>
 
- <!------------------------------------------------------------->
+    <!------------------------------------------------------------->
 
 
     <section class="" style="margin-bottom: 136px;">
@@ -163,9 +159,11 @@
             <div class="d-flex justify-content-between flex-wrap w-100">
 
                 <div class="d-flex flex-column gap-3" style="margin-bottom: 140px;">
-                    <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 20-1.png" alt="">
+                    <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 20-1.png"
+                        alt="">
 
-                    <h4 class="fw-bolder" style="width: 333px; font-size: 23px;" >Lorem Ipsum is simply dummy text of the printing.</h4>
+                    <h4 class="fw-bolder" style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the
+                        printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -184,7 +182,8 @@
                 <div class="d-flex flex-column gap-2" style="margin-bottom: 140px;">
                     <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 21.png" alt="">
 
-                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the printing.</h4>
+                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of
+                        the printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -203,7 +202,8 @@
                 <div class="d-flex flex-column gap-2" style="margin-bottom: 140px;">
                     <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 22.png" alt="">
 
-                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the printing.</h4>
+                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of
+                        the printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -218,12 +218,14 @@
 
                     </div>
                 </div>
-                
 
-                <div class="d-flex flex-column gap-3" >
-                    <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 20-1.png" alt="">
 
-                    <h4 class="fw-bolder" style="width: 333px; font-size: 23px;" >Lorem Ipsum is simply dummy text of the printing.</h4>
+                <div class="d-flex flex-column gap-3">
+                    <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 20-1.png"
+                        alt="">
+
+                    <h4 class="fw-bolder" style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the
+                        printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -239,10 +241,11 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column gap-2" >
+                <div class="d-flex flex-column gap-2">
                     <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 21.png" alt="">
 
-                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the printing.</h4>
+                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of
+                        the printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -258,10 +261,11 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-column gap-2" >
+                <div class="d-flex flex-column gap-2">
                     <img class="mb-4" style="width: 333px; height: 282px;" src="/assets/images/Rectangle 22.png" alt="">
 
-                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of the printing.</h4>
+                    <h4 class="fw-bolder " style="width: 333px; font-size: 23px;">Lorem Ipsum is simply dummy text of
+                        the printing.</h4>
                     <p class="grey-our-c lh-lg" style="width: 333px;">Lorem Ipsum is simply dummy text
                         of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
                         text ever since the .</p>
@@ -276,7 +280,7 @@
 
                     </div>
                 </div>
-                
+
 
             </div>
 

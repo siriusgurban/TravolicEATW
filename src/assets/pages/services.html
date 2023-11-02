@@ -1,57 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/general.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/dist/output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
-
-    <link rel="icon" type="image/x-icon" href="/assets/icons/travolic.png">
-    <title>Travolic</title>
 </head>
 
-<body style="font-family:'Poppins'">
-
-    <header class="d-flex justify-content-center border-bottom" style="height: 102px; ">
-
-        <div class="d-flex justify-content-between w-100" style="max-width: 1376px">
+<body class="font-poppins">
 
 
-            <div class="d-flex align-items-center w-50"><a class="text-decoration-none" href="/index.html">
-                    <p class="blue-c fs-2 fw-bold">LOGO</p>
+    <header class="flex justify-center border-b-2 h-24">
+
+        <div class="flex align-middle justify-center w-full text-center" style="max-width: 1376px">
+
+            <div class="flex py-7 w-6/12"><a href="../../index.html" class="text-center">
+                    <p class="text-3xl font-bold text-sky-600">LOGO</p>
                 </a></div>
 
+            <nav class="w-6/12 ">
 
-            <nav class="navbar navbar-expand w-50">
+                <ul class="w-full flex justify-between">
 
-
-                <ul class="navbar-nav d-flex justify-content-between w-100">
-
-                    <li class="">
-                        <a class="text-decoration-none text-reset position-relative" href="/index.html">Home</a>
+                    <li class="py-9">
+                        <a class="">Home</a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset " href="/assets/pages/aboutus.html">About&nbsp;us</a>
+                    <li class="py-9">
+                        <a class=" " href="/src/assets/pages/aboutus.html">About&nbsp;us</a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset position-relative" href="services.html"><img
-                                class="position-absolute top-0 start-0 translate-middle " src="/assets/icons/Nav.svg"
-                                alt="circle"><span class="blue-c">Services</span></a>
+                    <li class="py-9">
+                        <a class="relative" href="/src/assets/pages/aboutus.html"><img class="absolute -left-2 -top-1"
+                                src="../icons/Nav.svg" alt="circle"><span class="text-sky-600">Services</span></a>
                     </li>
-                    <li class="">
-                        <a class="text-decoration-none text-reset " href="/assets/pages/blog.html">Blog</a>
+                    <li class="py-9">
+                        <a class=" " href="/src/assets/pages/blog.html">Blog</a>
                     </li>
-                    <li class="">
-                        <button class="btn ps-4 pe-4 lablue-bg" type="submit"><a
-                                class="text-decoration-none text-white" href="/assets/pages/contactus.html"
-                                style="font-size: 13px;">Contact us</a></button>
+                    <li class="py-7">
+                        <button class="bg-sky-600 rounded-md w-32 h-10 hover:bg-sky-800" type="submit"><a
+                                class="text-xs text-white flex align-middle justify-center"
+                                href="/src/assets/pages/contactus.html">Contact
+                                us</a></button>
                     </li>
 
                 </ul>
@@ -76,7 +66,8 @@
                             src="/assets/icons/Speaker Angle 1.svg" alt="">
                     </div>
                     <div class="fs-1">Our <span class="blue-c">Services</span></div>
-                    <div class="grey-our-c lh-lg text-center" style="max-width: 440px; font-size: 18px;">Lorem Ipsum is simply
+                    <div class="grey-our-c lh-lg text-center" style="max-width: 440px; font-size: 18px;">Lorem Ipsum is
+                        simply
                         dummy text of the printing and typesetting industry. Lorem
                         Ipsum has been the industry's</div>
                 </div>
@@ -175,11 +166,16 @@
     <section class="lablue-bg align-items-center d-flex" style="height: 388px; margin-bottom: 140px;">
         <div class="container position-relative">
 
-            <img class="position-absolute" style=" top: -240px; left: -2%;" src="/assets/icons/Vector 1.svg" alt="vector">
-            <img class="position-absolute" style=" top: -176px; right: -2%;" src="/assets/icons/Vector 2.svg" alt="vector">
-            <img class="position-absolute" style="width: 112px; height: 112px; top: -180px; right: -2%;" src="/assets/icons/Bell Angle 1.svg" alt="bell">
-            <img class="position-absolute" style="bottom: -140px; left: -12%;" src="/assets/icons/Vector 3.svg" alt="vector">
-            <img class="position-absolute" style="width: 103px; height: 103px; bottom: -170px; left: 12%;" src="/assets/icons/Succlent angle 1.svg" alt="succlent">
+            <img class="position-absolute" style=" top: -240px; left: -2%;" src="/assets/icons/Vector 1.svg"
+                alt="vector">
+            <img class="position-absolute" style=" top: -176px; right: -2%;" src="/assets/icons/Vector 2.svg"
+                alt="vector">
+            <img class="position-absolute" style="width: 112px; height: 112px; top: -180px; right: -2%;"
+                src="/assets/icons/Bell Angle 1.svg" alt="bell">
+            <img class="position-absolute" style="bottom: -140px; left: -12%;" src="/assets/icons/Vector 3.svg"
+                alt="vector">
+            <img class="position-absolute" style="width: 103px; height: 103px; bottom: -170px; left: 12%;"
+                src="/assets/icons/Succlent angle 1.svg" alt="succlent">
 
             <div class="d-flex justify-content-between align-items-center">
 
@@ -220,7 +216,8 @@
                     <img class="mb-5" style="width: 300px; height: 282px;" src="/assets/images/Rectangle 20.png" alt="">
 
                     <p class="fw-bolder " style="width: 300px;">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text
+                        of the printing and typesetting
                         industry.</p>
 
                 </div>
@@ -228,7 +225,8 @@
                     <img class="mb-5" style="width: 300px; height: 282px;" src="/assets/images/Rectangle 21.png" alt="">
 
                     <p class="fw-bolder" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing
+                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text
+                        of the printing
                         and typesetting
                         industry. Lorem Ipsu</p>
 
@@ -237,7 +235,8 @@
                     <img class="mb-5" style="width: 300px; height: 282px;" src="/assets/images/Rectangle 22.png" alt="">
 
                     <p class="fw-bolder" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing
+                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text
+                        of the printing
                         and typesetting
                         industry. Lorem</p>
 
@@ -247,7 +246,8 @@
                         src="/assets/images/b2ba571d8f57f99f80a20d115c02681e.jfif" alt="">
 
                     <p class="fw-bolder" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing.</p>
-                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text of the printing
+                    <p class="grey-carousel-c grey-our-c lh-lg" style="width: 300px;">Lorem Ipsum is simply dummy text
+                        of the printing
                         and typesetting
                         industry. Lorem</p>
 
