@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="dark">
+<html id="ht">
 
 <head>
   <meta charset="UTF-8">
@@ -9,8 +9,7 @@
 
 </head>
 
-<body class="font-poppins dark:bg-black">
-
+<body class="font-poppins dark:bg-gradient-to-tr from-black to-sky-950 ">
 
   <header class="flex justify-center border-b-2 h-24">
 
@@ -20,7 +19,7 @@
           <p class="text-3xl font-bold text-sky-600">LOGO</p>
         </a></div>
 
-      <nav class="w-6/12 ">
+      <nav class="w-6/12">
 
         <ul class="w-full flex justify-between dark:text-white">
 
@@ -38,12 +37,10 @@
             <a class=" " href="/src/assets/pages/blog.html">Blog</a>
           </li>
           <li class="py-7">
-            <button class="bg-sky-600 rounded-md w-32 h-10 hover:bg-sky-800" type="submit"><a
-                class="text-xs text-white flex align-middle justify-center"
-                href="/src/assets/pages/contactus.html">Contact
-                us</a></button>
+            <button onclick="myDark()" class="bg-sky-600 rounded-md w-32 h-10 hover:bg-sky-800" type="submit"><a
+                class="text-xs text-white flex align-middle justify-center">Contact us</a></button>
           </li>
-
+          <!-- href="/src/assets/pages/contactus.html" -->
         </ul>
 
       </nav>
@@ -386,7 +383,7 @@
 
 
 
-  <section class="bg-indigo-100" style="height: 534px;">
+  <section class="bg-indigo-100 dark:bg-sky-950" style="height: 534px;">
     <div class="container relative">
 
 
@@ -474,7 +471,7 @@
     </div>
   </footer>
 
-  <script src="/assets/js/script.js"></script>
+  <script src="/src/assets/js/script.js"></script>
 
 </body>
 
