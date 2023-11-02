@@ -32,7 +32,18 @@ $('.owl-carousel').owlCarousel({
 
 
 function myDark() {
+
     !document.querySelector("#ht").classList.contains('dark') ? ht.classList.add('dark') : ht.classList.remove('dark');
+
+    // if (
+    //     localStorage.getItem('color-theme') === 'dark' ||
+    //     (!('color-theme' in localStorage) &&
+    //         window.matchMedia('(prefers-color-scheme: dark)').matches)
+    // ) {
+    //     document.documentElement.classList.add('dark');
+    // } else {
+    //     document.documentElement.classList.remove('dark');
+    // }
 }
 
 myDark();
