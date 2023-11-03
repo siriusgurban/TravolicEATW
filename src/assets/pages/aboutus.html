@@ -1,11 +1,14 @@
 <!doctype html>
-<html>
+<html id="ht">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <link rel="stylesheet" href="../js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
 
 </head>
 
@@ -53,35 +56,35 @@
 
     <!----------------------------Section-Photos--------------------------->
 
-    <section class="position-relative" style="margin-bottom: 220px; margin-top: 156px;">
+    <section class="relative mb-56 mt-40">
 
-        <div class="d-flex justify-content-center">
+        <div class="flex justify-center">
 
-            <div class="d-flex flex-column justify-content-center" style="max-width: 1224px; gap: 60px">
+            <div class="flex flex-col justify-center gap-16" style="max-width: 1224px;">
 
-                <img class="position-absolute" style="left: 0; top: 55%;" src="/assets/icons/VectorAboutus1.svg"
-                    alt="vector">
-                <img class="position-absolute" style="right: 0; top: -35%;" src="/assets/icons/VectorAboutus2.svg"
-                    alt="vector">
+                <img class="absolute" style="left: 0; top: 55%;" src="../icons/VectorAboutus1.svg" alt="vector">
+                <img class="absolute" style="right: 0; top: -35%;" src="../icons/VectorAboutus2.svg" alt="vector">
 
 
-                <div class="d-flex justify-content-center" style="gap: 70px;">
-                    <div class="d-flex" style="gap: 50px;">
-                        <div><img class="w-100" src="/assets/images/Aboutus1.png" alt="Aboutus"></div>
-                        <div><img class="w-100" src="/assets/images/Aboutus2.png" alt="Aboutus"></div>
+                <div class="flex justify-center" style="gap: 70px;">
+                    <div class="flex gap-12">
+                        <div><img class="w-100" src="../images/Aboutus1.png" alt="Aboutus"></div>
+                        <div><img class="w-100" src="../images/Aboutus2.png" alt="Aboutus"></div>
                     </div>
-                    <div class="d-flex flex-column gap-4 w-50">
-                        <div class="blue-c fs-4">About us</div>
-                        <div class="fw-bolder fs-1 lh-base">Lorem Ipsum is simply dummy text of the printing. </div>
-                        <div class="grey-c w-75 lh-lg">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <div class="flex flex-col gap-4 w-6/12">
+                        <div class="text-sky-600 text-2xl font-normal">About us</div>
+                        <div class="text-4xl text-neutral-800 font-semibold leading-loose w-11/12">Lorem Ipsum is simply
+                            dummy text of the printing. </div>
+                        <div class="text-lg text-zinc-500 w-3/4 leading-10">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting
                             industry. Lorem Ipsum has been the industry's</div>
                     </div>
                 </div>
 
 
-                <div class="d-flex justify-content-center" style="gap: 50px;">
-                    <div><img class="w-100" src="/assets/images/Aboutus3.png" alt="Aboutus"></div>
-                    <div><img class="w-100" src="/assets/images/Aboutus4.png" alt="Aboutus"></div>
+                <div class="flex justify-center gap-12">
+                    <div><img class="w-full" src="../images/Aboutus3.png" alt="Aboutus"></div>
+                    <div><img class="w-full" src="../images/Aboutus4.png" alt="Aboutus"></div>
                 </div>
 
             </div>
@@ -91,15 +94,16 @@
 
     <!-- --------------------------ABOUT-US-Lorem--------------------------------->
 
-    <section style="margin-bottom: 186px;">
-        <div class="container">
+    <section class="mb-48">
+        <div class="container" style="max-width: 1194px;">
 
-            <div class="aboutus-lorem">
-                <div class="mb-5">
-                    <h1 class="blue-c" style="font-size: 45px; width: 68%;">Lorem Ipsum is simply dummy text of the
+            <div class="flex flex-col gap-12">
+                <div class="">
+                    <h1 class="text-sky-600 font-semibold leading-relaxed text-5xl w-9/12">Lorem Ipsum is simply dummy
+                        text of the
                         printing. </h1>
                 </div>
-                <div class="grey-us-c lh-lg" style="width: 70%;">
+                <div class="text-zinc-600 leading-10 w-8/12">
                     <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
                         applications and website
                         builders measuring dozens of completed projects. We build and develop mobile applications for
@@ -115,70 +119,67 @@
 
 
 
-    <section style="margin-bottom: 152px;">
-        <div class="d-flex align-content-start justify-content-center" style="padding-left: 123px;">
+    <section class="mb-36">
+        <div class="flex align-start justify-center" style="padding-left: 123px;">
 
-            <div class="d-flex justify-content-between w-100" style="gap: 52px; max-width: 1317px;">
+            <div class="flex justify-between w-full" style="gap: 52px; max-width: 1317px;">
 
-                <div class=" " style="width: 41%">
+                <div class="w-5/12">
 
-                    <div style="width: 54px; height: 5px; background-color: #4628a4; margin-bottom: 32px;"></div>
+                    <div class="w-14 h-1.5 bg-indigo-800 mb-8"></div>
 
-                    <div class="d-flex flex-column gap-4">
+                    <div class="flex flex-col gap-10">
                         <div>
-                            <h2 class="lh-lg">Lorem Ipsum is simply dummy text of the printing. </h2>
+                            <h2 class="font-semibold text-3xl leading-relaxed">Lorem Ipsum is simply dummy text of the
+                                printing. </h2>
                         </div>
-                        <div class="grey-us-c lh-lg" style="font-size: 20px;">
+                        <div class="text-zinc-600 leading-relaxed text-xl">
                             <p>KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
                                 web
                                 applications and website
                                 builders measuring dozens of completed projects.</p>
                         </div>
-                        <div class="d-flex justify-content-end"><a
-                                class="btn btn-light ps-5 pe-5 pt-3 pb-3 text-decoration-none align-items-center blue-c"
-                                style="border: 1px solid #1090cb;" href="/assets/pages/contactus.html">Contact us</a>
+                        <div class="flex justify-end"><a
+                                class="bg-white text-sky-600 py-4 px-12 rounded-lg border-sky-600 border border-solid hover:bg-slate-200"
+                                href="/src/assets/pages/contactus.html">Contact us</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-wrap shadow"
-                    style="width: 59%; padding-top: 65px; padding-right: 0; padding-bottom: 35px; padding-left: 61px;">
-
-
-                    <div class="d-flex gap-4 align-items-center" style="width: 422px; margin-bottom: 55px;">
-                        <div class="red-light-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
-                                class="position-absolute" style="top: 29%; left: 29%;" src="/assets/icons/apps 1.svg"
-                                alt="apps"></div>
-                        <div class="purple-c fw-bolder fs-4">
+                <div class="flex flex-wrap shadow-2xl w-7/12 pt-16 pr-0 pb-9 pl-16">
+                    <div class="flex gap-4 align-baseline mb-14" style="width: 422px">
+                        <div class="bg-red-50 rounded-3xl relative w-24 h-24 "><img class="absolute"
+                                style="top: 29%; left: 29%;" src="../icons/apps 1.svg" alt="apps">
+                        </div>
+                        <div class="text-2xl text-violet-950 font-medium">
                             <p>Web Application</p>
                         </div>
                     </div>
 
-                    <div class="d-flex gap-4 align-items-center">
-                        <div class="aqua-light-bg rounded-4 position-relative"
-                            style="width: 90px; height: 90px; margin-bottom: 55px;"><img class="position-absolute"
-                                style="top: 29%; left: 29%;" src="/assets/icons/startup 1.svg" alt="startup"></div>
-                        <div class="purple-c fw-bolder fs-4">
+                    <div class="flex gap-4 align-middle">
+                        <div class="bg-sky-100 rounded-3xl relative w-24 h-24 mb-14"><img class="absolute"
+                                style="top: 29%; left: 29%;" src="../icons/startup 1.svg" alt="startup"></div>
+                        <div class="text-2xl text-violet-950 font-medium">
                             <p>SEO</p>
                         </div>
                     </div>
 
 
-                    <div class="d-flex gap-4 align-items-center" style="width: 422px;  margin-bottom: 55px;">
-                        <div class="salat-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
-                                class="position-absolute" style="top: 29%; left: 29%;" src="/assets/icons/coding 1.svg"
-                                alt="coding"></div>
-                        <div class="purple-c fw-bolder fs-4">
+                    <div class="flex gap-4 align-middle mb-14" style="width: 422px;">
+                        <div class="bg-purple-100 rounded-3xl relative w-24 h-24"><img class="absolute"
+                                style="top: 29%; left: 29%;" src="../icons/coding 1.svg" alt="coding">
+                        </div>
+                        <div class="text-2xl text-violet-950 font-medium">
                             <p>Mobile Applications</p>
                         </div>
                     </div>
 
-                    <div class="d-flex gap-4 align-items-center" style=" margin-bottom: 55px;">
-                        <div class="salat-light-bg rounded-4 position-relative" style="width: 90px; height: 90px; "><img
-                                class="position-absolute" style="top: 29%; left: 29%;"
-                                src="/assets/icons/cloud-computing 1.svg" alt="cloud-computing ">
+                    <div class="flex gap-4 align-middle mb-14">
+                        <div class="bg-fuchsia-100 rounded-3xl relative w-24 h-24"><img class="absolute"
+                                style="top: 29%; left: 29%;" src="../icons/cloud-computing 1.svg"
+                                alt="cloud-computing ">
                         </div>
-                        <div class="purple-c fw-bolder fs-4">
+                        <div class="text-2xl text-violet-950 font-medium">
                             <p>AR/VR</p>
                         </div>
                     </div>
@@ -196,78 +197,89 @@
     <!-----------------------------Our-Team---------------------------->
 
     <section style="height: 650px;">
-        <div class="container">
+        <div class="container" style="max-width: 1194px;">
 
-            <div style="margin-bottom: 70px;">
-                <p class="fw-bolder fs-4">Our Team</p>
+            <div class="mb-20">
+                <p class="text-2xl font-medium">Our Team</p>
             </div>
 
-            <div class="owl-carousel">
+            <div class="owl-carousel owl-theme flex gap-12">
 
-                <div class="item w-100">
-                    <img style="width: 332px; height: 282px;" src="/assets/images/Rectangle 12.png" alt="">
+                <div class="item">
+                    <div class="flex flex-col gap-4" style="width: 332px; height: 282px;"><img
+                            src="../images/Rectangle 12.png" alt="team">
+                        <p class="text-neutral-500">CEO</p>
 
-                    <p class="grey-carousel-c">CEO</p>
+                        <p class="text-lg font-semibold " style="width: 300px;">John kabras</p>
+                    </div>
 
-                    <p class="fw-bolder " style="width: 300px;">John kabras</p>
+
                 </div>
-                <div class="item w-100">
-                    <img style="width: 332px; height: 282px;" src="/assets/images/Rectangle 13.png" alt="">
+                <div class="item ">
+                    <div class="flex flex-col gap-4" style="width: 332px; height: 282px;"><img
+                            src="../images/Rectangle 13.png" alt="team">
+                        <p class="text-neutral-500" style="width: 300px;">COO</p>
 
-                    <p class="grey-carousel-c" style="width: 300px;">COO</p>
+                        <p class="text-lg font-semibold" style="width: 300px;">Philips shene moris</p>
+                    </div>
 
-                    <p class="fw-bolder" style="width: 300px;">Philips shene moris</p>
+
                 </div>
-                <div class="item w-100">
-                    <img style="width: 332px; height: 282px;" src="/assets/images/Rectangle 14.png" alt="">
+                <div  class="item ">
+                    <div class="flex flex-col gap-4" style="width: 332px; height: 282px;"><img src="../images/Rectangle 14.png" alt="team">
+                        <p class="text-neutral-500" style="width: 300px;">Tech lead</p>
 
-                    <p class="grey-carousel-c" style="width: 300px;">Tech lead</p>
+                        <p class="text-lg font-semibold" style="width: 300px;">Equarn shamir mohomad</p>
+                    </div>
 
-                    <p class="fw-bolder" style="width: 300px;">Equarn shamir mohomad</p>
+
                 </div>
-                <div class="item w-100">
-                    <img style="width: 332px; height: 282px; object-fit:cover;"
-                        src="/assets/images/414ecbea3f33169edabbfa1b136ec535.jfif" alt="">
+                <div class="item ">
+                    <div class="flex flex-col gap-4 " style="width: 332px; height: 282px;"><img class="rounded-t-2xl" style="object-fit:contain;" src="../images/414ecbea3f33169edabbfa1b136ec535crop (2).png" alt="team">
 
-                    <p class="grey-carousel-c" style="width: 300px;">Head of UX</p>
+                        <p class="text-neutral-500" style="width: 300px;">Head of UX</p>
 
-                    <p class="fw-bolder" style="width: 300px;">Janka indrajith</p>
+                        <p class="text-lg font-semibold" style="width: 300px;">Janka indrajith</p>
+                    </div>
+
+
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- --------------------------Section-Subscribe-------------------------- -->
+
+    <!----------------------------Section-Subscribe---------------------------->
 
 
 
-    <section class="blue-bg " style="height: 534px;">
-        <div class="container position-relative">
+    <section class="bg-indigo-100 dark:bg-sky-800" style="height: 534px;">
+        <div class="container relative">
 
 
-            <img class="position-absolute" style="width: 66px; height: 66px; top: -36px; left: 2%;"
-                src="/assets/icons/Star.svg" alt="star">
-            <img class="position-absolute" style="width: 54px; height: 54px; top: 90px; right: 22%;"
-                src="/assets/icons/PaiChart.svg" alt="paichart">
+            <img class="absolute w-16 h-16 -top-9" style="left: 2%;" src="../icons/Star.svg" alt="star">
+            <img class="absolute w-14 h-14 top-24" style="right: 22%;" src="../icons/PaiChart.svg" alt="paichart">
 
-            <div class="d-flex justify-content-center">
+            <div class="flex justify-center gap-20">
 
-
-                <div class="d-flex justify-content-center flex-column" style="gap: 60px; margin-top: 148px;">
-                    <div class="text-center " style="max-width: 516px;">
-                        <h2 class="fw-bolder lh-lg">Lorem Ipsum is simply dummy text of the printing.</h2>
+                <div class="flex flex-col gap-20 mt-36">
+                    <div class="text-center w-8/12">
+                        <h2 class="text-neutral-800 font-semibold text-3xl leading-relaxed dark:invert">Lorem Ipsum is
+                            simply dummy
+                            text of the
+                            printing.</h2>
                     </div>
 
 
-                    <form class="row g-3" style="width: 720px;">
-                        <div class="col-9">
-                            <label for="inputPassword2" class="visually-hidden ">Enter your email</label>
-                            <input type="email" class="form-control ps-4 pe-5 pt-4 pb-4 " id="inputPassword2"
+                    <form class="flex gap-x-3.5" style="width: 720px;">
+                        <div class="w-10/12">
+                            <label for="inputPassword2" class="visually-hidden"></label>
+                            <input type="email" class="form-control py-5 ps-9 rounded-xl w-full" id="inputPassword2"
                                 placeholder="Enter your email">
                         </div>
-                        <div class="col-3">
-                            <button type="submit" class="btn btn-dark ps-5 pe-5 pt-4 pb-4">SUBSCRIBE</button>
+                        <div class="bg-black w-44 h-16 flex justify-center align-middle rounded-xl">
+                            <button type="submit" class="font-medium text-white">SUBSCRIBE</button>
                         </div>
                     </form>
 
@@ -277,22 +289,24 @@
         </div>
     </section>
 
-    <!-- --------------------------Footer-------------------------- -->
+    <!----------------------------Footer---------------------------->
 
-    <footer class="border-bottom d-flex justify-content-center" style="padding-top: 80px; height: 300px; ">
+    <footer class="border-b-2 flex justify-center " style="padding-top: 80px; height: 300px; ">
 
-        <div class="d-flex justify-content-between " style="max-width: 1240px">
+        <div class="flex justify-between gap-20" style="max-width: 1240px">
 
-            <div class="d-flex flex-column gap-4 col-4">
-                <div class="fw-bold blue-c">LOGO</div>
-                <div class="grey-c">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <div class="flex flex-col gap-6 col-4 ">
+                <div class="font-bold text-sky-600">LOGO</div>
+                <div class="text-neutral-600 dark:invert">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry.
                 </div>
-                <div class="grey-c">@Lorem</div>
+                <div class="text-neutral-600 dark:invert">@Lorem</div>
             </div>
 
-            <div class="d-flex flex-column gap-3 col-1">
-                <div class="fw-bolder">About&nbsp;us</div>
-                <div class="d-flex flex-column gap-2 grey-c">
+            <div class="flex flex-col gap-4 col-1 dark:invert">
+                <div class="font-medium">About&nbsp;us</div>
+                <div class="flex flex-col gap-1 text-neutral-600">
                     <div>Lorem</div>
                     <div>Portfolio</div>
                     <div>Careers</div>
@@ -300,38 +314,33 @@
                 </div>
             </div>
 
-            <div class="d-flex flex-column gap-3 col-3">
-                <div class="fw-bolder">Contact us</div>
-                <div class="d-flex flex-column gap-5 grey-c">
+            <div class="flex flex-col gap-5 col-3 dark:invert">
+                <div class="font-medium">Contact us</div>
+                <div class="flex flex-col gap-5 text-neutral-600">
                     <div class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </div>
                     <div class="">+908 89097 890</div>
                 </div>
             </div>
 
-            <div class="d-flex gap-3 col-2 align-items-end pb-5">
-                <div class="shadow-sm position-relative" style="width: 34px; height: 34px; border-radius: 50%;"><img
-                        class="position-absolute" style="left: 32%; top: 32%;" src="/assets/icons/facebook 1.svg"
-                        alt="fb"></div>
-                <div class="shadow-sm position-relative" style="width: 34px; height: 34px; border-radius: 50%;"><img
-                        class="position-absolute" style="left: 32%; top: 32%;" src="/assets/icons/instagram 1.svg"
-                        alt="ins"></div>
-                <div class="shadow-sm position-relative" style="width: 34px; height: 34px; border-radius: 50%;"><img
-                        class="position-absolute" style="left: 32%; top: 32%;" src="/assets/icons/twitter 1.svg"
-                        alt="tw"></div>
-                <div class="shadow-sm position-relative" style="width: 34px; height: 34px; border-radius: 50%;"><img
-                        class="position-absolute" style="left: 32%; top: 32%;" src="/assets/icons/linkedin 1.svg"
-                        alt="ln"></div>
+            <div class="flex col-2 items-end mb-12 gap-4 dark:invert">
+                <div class="shadow-lg relative w-9 h-9 rounded-full "><img class="absolute top-1/3 left-1/3"
+                        src="../icons/facebook 1.svg" alt="fb"></div>
+                <div class="shadow-lg relative w-9 h-9 rounded-full"><img class="absolute top-1/3 left-1/3"
+                        src="../icons/instagram 1.svg" alt="ins"></div>
+                <div class="shadow-lg relative w-9 h-9 rounded-full"><img class="absolute top-1/3 left-1/3"
+                        src="../icons/twitter 1.svg" alt="tw"></div>
+                <div class="shadow-lg relative w-9 h-9 rounded-full"><img class="absolute top-1/3 left-1/3"
+                        src="../icons/linkedin 1.svg" alt="ln"></div>
             </div>
 
         </div>
 
-
     </footer>
 
     <footer>
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="grey-c p-4" style="font-size: 13px;">
+        <div class="flex justify-center align-middle">
+            <div class="text-stone-500 text-sm py-7 dark:invert">
                 <p>Copyright ® 2023 Lorem All rights Reserved</p>
             </div>
         </div>
@@ -339,14 +348,14 @@
 
 
 
-    <script src="/assets/js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
-    <script src="/assets/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="../js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <script src="/assets/js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
