@@ -1,46 +1,25 @@
-function myDark() {
+// function myDark() {
 
-    !document.querySelector("#ht").classList.contains('dark') ? ht.classList.add('dark') : ht.classList.remove('dark');
+// !document.querySelector("#ht").classList.contains('dark') ? ht.classList.add('dark') : ht.classList.remove('dark');
 
-    // let darkMode = localStorage.getItem("dark-mode");
+const toggleButton = document.getElementById('toggle-button');
+const ht = document.querySelector("#ht");
+let light1 = document.querySelector('#light1');
+let light2 = document.querySelector('#light2');
 
-    // darkMode = localStorage.getItem("dark-mode"); // update darkMode when clicked
+// Check for saved 'darkMode' in localStorage
+const darkMode = localStorage.getItem('darkMode');
 
-    // if (darkMode === "disabled") {
-    //     ht.classList.add('dark');
-    //     darkMode = localStorage.setItem("dark-mode");
+if (darkMode) {
+    ht.classList.add('dark');
 
-    // } else {
-    //     ht.classList.remove('dark');
-    //     localStorage.setItem("dark-mode", "disabled");
+}
 
-    // }
+toggleButton.onclick = function () {
+    ht.classList.toggle('dark');
 
-
-    // if (!document.querySelector("#ht").classList.contains('dark')) {
-    //     ht.classList.add('dark');
-
-    //     if (darkMode === 'disabled') {
-    //         localStorage.setItem("dark-mode", "enabled");
-    //         // ht.classList.add('dark');
-    //         darkMode = localStorage.setItem("dark-mode");
-    //     }
-
-    // } else {
-    //     ht.classList.remove('dark');
-
-    //     if (darkMode === 'enabled') {
-    //         localStorage.setItem("dark-mode", "disabled");
-    //         // ht.classList.remove('dark');
-    //         darkMode = localStorage.setItem("dark-mode");
-    //     }
-
-    // }
-
-
-
-    let light1 = document.querySelector('#light1');
-    let light2 = document.querySelector('#light2');
+    // Save the current preference to localStorage
+    localStorage.setItem('darkMode', ht.classList.contains('dark'));
 
     if (!light1.classList.contains('invisible')) {
         light1.classList.add('invisible');
@@ -49,6 +28,12 @@ function myDark() {
         light2.classList.add('invisible');
         light1.classList.remove('invisible');
     }
+}
+
+
+
+
+
 
 
 
@@ -63,6 +48,6 @@ function myDark() {
     // } else {
     //     document.documentElement.classList.remove('dark');
     // }
-}
+// }
 
 // myDark();
