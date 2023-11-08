@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
 
+
 </head>
 
 <body class="font-poppins dark:bg-gradient-to-tr from-black to-sky-950 ">
@@ -31,11 +32,11 @@
                         <a class="" href="../../index.html">Home</a>
                     </li>
                     <li class="py-9">
-                        <a class="relative" href="/src/assets/pages/aboutus.html"><img class="absolute -left-2 -top-1"
+                        <a class="relative " href="/src/assets/pages/aboutus.html"><img class="absolute -left-2 -top-1"
                                 src="../icons/Nav.svg" alt="circle"><span class="text-sky-600">About&nbsp;us</span></a>
                     </li>
                     <li class="py-9">
-                        <a class=" " href="/src/assets/pages/services.html">Services</a>
+                        <a class="" href="/src/assets/pages/services.html">Services</a>
                     </li>
                     <li class="py-9">
                         <a class=" " href="/src/assets/pages/blog.html">Blog</a>
@@ -50,19 +51,18 @@
                 </ul>
 
             </nav>
-            <button onclick="myDark()"
-            class="w-8 h-16 rounded-full border-2 border-black border-solid shadow-2xl ml-4 mt-3 ">
+        </div>
+        <button onclick="myDark()"
+            class="w-8 h-16 rounded-full border-2 border-black border-solid shadow-2xl ml-4 mt-3 dark:invert cursor-pointer">
             <div class="flex flex-col ">
                 <div id="light1" class="flex m-auto "><img class="w-6 h-6"
-                        src="../icons/9104269_night_night mode_moon_crescent_dark mode_icon.svg" alt="dark/light"></div>
+                        src="/src/assets/icons//9104269_night_night mode_moon_crescent_dark mode_icon.svg"
+                        alt="dark/light"></div>
                 <div class="w-8 h-0.5 bg-black"></div>
                 <div id="light2" class="flex m-auto invisible"><img class="w-6 h-6"
-                        src="../icons/light-mode-svgrepo-com.svg" alt="dark/light"></div>
+                        src="/src/assets/icons/light-mode-svgrepo-com.svg" alt="dark/light"></div>
             </div>
         </button>
-        </div>
-       
-       
     </header>
     <!----------------------------Section-Photos--------------------------->
 
@@ -83,7 +83,8 @@
                     </div>
                     <div class="flex flex-col gap-4 w-6/12">
                         <div class="text-sky-600 text-2xl font-normal">About us</div>
-                        <div class="text-4xl text-neutral-800 font-semibold leading-loose w-11/12">Lorem Ipsum is simply
+                        <div class="text-4xl text-neutral-800 font-semibold leading-loose w-11/12 dark:invert">Lorem
+                            Ipsum is simply
                             dummy text of the printing. </div>
                         <div class="text-lg text-zinc-500 w-3/4 leading-10">Lorem Ipsum is simply dummy text of the
                             printing and typesetting
@@ -109,7 +110,7 @@
 
             <div class="flex flex-col gap-12">
                 <div class="">
-                    <h1 class="text-sky-600 font-semibold leading-relaxed text-5xl w-9/12">Lorem Ipsum is simply dummy
+                    <h1 class="text-sky-600 font-semibold leading-relaxed text-5xl w-9/12 ">Lorem Ipsum is simply dummy
                         text of the
                         printing. </h1>
                 </div>
@@ -140,7 +141,8 @@
 
                     <div class="flex flex-col gap-10">
                         <div>
-                            <h2 class="font-semibold text-3xl leading-relaxed">Lorem Ipsum is simply dummy text of the
+                            <h2 class="font-semibold text-3xl leading-relaxed dark:invert">Lorem Ipsum is simply dummy
+                                text of the
                                 printing. </h2>
                         </div>
                         <div class="text-zinc-600 leading-relaxed text-xl">
@@ -156,40 +158,41 @@
                     </div>
                 </div>
 
-                <div class="flex flex-wrap shadow-2xl w-7/12 pt-16 pr-0 pb-9 pl-16">
-                    <div class="flex gap-4 align-baseline mb-14" style="width: 422px">
-                        <div class="bg-red-50 rounded-3xl relative w-24 h-24 "><img class="absolute"
-                                style="top: 29%; left: 29%;" src="../icons/apps 1.svg" alt="apps">
+                <div class="flex flex-wrap shadow-2xl w-7/12 pt-16 pr-0 pb-9 pl-16 bg-white">
+
+                    <div class="flex gap-4 align-middle mb-14" style="width: 422px; height: 96px;">
+                        <div class="bg-red-50 rounded-3xl w-24 h-24 flex justify-center items-center"><img
+                                src="../icons/apps 1.svg" alt="apps">
                         </div>
-                        <div class="text-2xl text-violet-950 font-medium">
+                        <div class="text-2xl text-violet-950 font-medium flex items-center">
                             <p>Web Application</p>
                         </div>
                     </div>
 
-                    <div class="flex gap-4 align-middle">
-                        <div class="bg-sky-100 rounded-3xl relative w-24 h-24 mb-14"><img class="absolute"
-                                style="top: 29%; left: 29%;" src="../icons/startup 1.svg" alt="startup"></div>
-                        <div class="text-2xl text-violet-950 font-medium">
+                    <div class="flex gap-4 align-middle mb-14" style="height: 96px;">
+                        <div class="bg-sky-100 rounded-3xl relative w-24 h-24 mb-14 flex justify-center items-center">
+                            <img src="../icons/startup 1.svg" alt="startup">
+                        </div>
+                        <div class="text-2xl text-violet-950 font-medium flex items-center">
                             <p>SEO</p>
                         </div>
                     </div>
 
 
                     <div class="flex gap-4 align-middle mb-14" style="width: 422px;">
-                        <div class="bg-purple-100 rounded-3xl relative w-24 h-24"><img class="absolute"
-                                style="top: 29%; left: 29%;" src="../icons/coding 1.svg" alt="coding">
+                        <div class="bg-purple-100 rounded-3xl relative w-24 h-24 flex justify-center items-center"><img
+                                src="../icons/coding 1.svg" alt="coding">
                         </div>
-                        <div class="text-2xl text-violet-950 font-medium">
+                        <div class="text-2xl text-violet-950 font-medium flex items-center">
                             <p>Mobile Applications</p>
                         </div>
                     </div>
 
                     <div class="flex gap-4 align-middle mb-14">
-                        <div class="bg-fuchsia-100 rounded-3xl relative w-24 h-24"><img class="absolute"
-                                style="top: 29%; left: 29%;" src="../icons/cloud-computing 1.svg"
-                                alt="cloud-computing ">
+                        <div class="bg-fuchsia-100 rounded-3xl relative w-24 h-24 flex justify-center items-center"><img
+                                src="../icons/cloud-computing 1.svg" alt="cloud-computing ">
                         </div>
-                        <div class="text-2xl text-violet-950 font-medium">
+                        <div class="text-2xl text-violet-950 font-medium flex items-center">
                             <p>AR/VR</p>
                         </div>
                     </div>
@@ -202,7 +205,7 @@
         </div>
     </section>
 
-   
+
 
 
 
@@ -222,31 +225,28 @@
                             src="../images/Rectangle 12.png" alt="team">
                         <p class="text-neutral-500">CEO</p>
 
-                        <p class="text-lg font-semibold " style="width: 300px;">John kabras</p>
+                        <p class="text-lg font-semibold dark:invert" style="width: 300px;">John kabras</p>
                     </div>
-
-
                 </div>
+
                 <div class="item ">
                     <div class="flex flex-col gap-4" style="width: 332px; height: 282px;"><img
                             src="../images/Rectangle 13.png" alt="team">
                         <p class="text-neutral-500" style="width: 300px;">COO</p>
 
-                        <p class="text-lg font-semibold" style="width: 300px;">Philips shene moris</p>
+                        <p class="text-lg font-semibold dark:invert" style="width: 300px;">Philips shene moris</p>
                     </div>
-
-
                 </div>
+
                 <div class="item ">
                     <div class="flex flex-col gap-4" style="width: 332px; height: 282px;"><img
                             src="../images/Rectangle 14.png" alt="team">
                         <p class="text-neutral-500" style="width: 300px;">Tech lead</p>
 
-                        <p class="text-lg font-semibold" style="width: 300px;">Equarn shamir mohomad</p>
+                        <p class="text-lg font-semibold dark:invert" style="width: 300px;">Equarn shamir mohomad</p>
                     </div>
-
-
                 </div>
+
                 <div class="item ">
                     <div class="flex flex-col gap-4 " style="width: 332px; height: 282px;"><img class="rounded-t-2xl"
                             style="object-fit:contain;" src="../images/414ecbea3f33169edabbfa1b136ec535crop (2).png"
@@ -254,11 +254,10 @@
 
                         <p class="text-neutral-500" style="width: 300px;">Head of UX</p>
 
-                        <p class="text-lg font-semibold" style="width: 300px;">Janka indrajith</p>
+                        <p class="text-lg font-semibold dark:invert" style="width: 300px;">Janka indrajith</p>
                     </div>
-
-
                 </div>
+
             </div>
 
         </div>
