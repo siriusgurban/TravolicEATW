@@ -1,5 +1,3 @@
-// function myDark() {
-
 // !document.querySelector("#ht").classList.contains('dark') ? ht.classList.add('dark') : ht.classList.remove('dark');
 
 const toggleButton = document.getElementById('toggle-button');
@@ -29,25 +27,3 @@ toggleButton.onclick = function () {
         light1.classList.remove('invisible');
     }
 }
-
-
-
-
-
-
-
-
-
-
-    // if (
-    //     localStorage.getId('ht') === 'dark' ||
-    //     (!('ht' in localStorage) &&
-    //         window.matchMedia('(prefers-color-scheme: dark)').matches)
-    // ) {
-    //     document.documentElement.classList.add('dark');
-    // } else {
-    //     document.documentElement.classList.remove('dark');
-    // }
-// }
-
-// myDark();
